@@ -78,7 +78,6 @@ function draw(){
     var datetime = responseJson.datetime;
     var hour = datetime.slice(11,13);
     console.log(hour);
-    hour = 20;
     if(hour >= 06 && hour<= 19){
         BG = "sprites/bg.png";
     }
